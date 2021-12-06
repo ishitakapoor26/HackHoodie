@@ -15,13 +15,13 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: #2f3138;
   text-decoration: none;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #f8234a;
+  color: #2f3138;
   outline: none;
   text-decoration: none;
 }
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header #logo h1 span {
-  color: #f82249;
+  color: #2f3138;
 }
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
@@ -168,11 +168,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #f82249;
+  background: #2f3138;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #f82249;
+  border: 2px solid #25a70b;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -240,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #f82249;
+  background-color: #45c413;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -1293,7 +1293,7 @@ h1, h2, h3, h4, h5, h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #101522;
+  background: #112210;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
@@ -1377,7 +1377,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #0ba506;
 }
 #footer .footer-top .footer-links ul a:hover {
   color: #f82249;
