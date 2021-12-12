@@ -8,9 +8,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+.copyright strong{
+  color: #18d26e;
+}
+.when{
+  margin-left: 58px;
+}
+.row3{
+  margin: 8px !important;
+}
 .black-h2 {
-  color: #040919;
+  color: white;
 }
 
 body {
@@ -124,13 +132,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-with-bg {
-  background-color: #f6f7fd;
+  background-color: black;
 }
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
+  background-color: black;
   height: 90px;
   position: fixed;
   left: 0;
@@ -152,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 #header #logo h1 span {
-  color: #2f3138;
+  color: #73F342;
 }
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #fff;
@@ -172,16 +181,16 @@ h1, h2, h3, h4, h5, h6 {
 # Buy Tickets
 --------------------------------------------------------------*/
 .buy-tickets {
-  color: #fff;
+  color: black;
   background: #73F342;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
   border: 2px solid #25a70b;
   transition: all ease-in-out 0.3s;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
-  font-size: 13px;
+  font-size: 14px;
   white-space: nowrap;
 }
 .buy-tickets:hover {
@@ -227,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(202, 206, 221, 0.8);
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 19px;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -428,6 +437,23 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+#hero .hero-container img{
+  width: initial;
+  opacity: 0.6;
+}
+.contain {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 96px;
+  font-weight: 600;
+}
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -436,10 +462,11 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   text-align: center;
   padding: 0 15px;
+  background-color: black;
 }
 @media (max-width: 991px) {
   #hero .hero-container {
@@ -583,7 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 # About Section
 --------------------------------------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg");
+  background: url("https://i.pinimg.com/originals/29/15/5e/29155eec1ac6b59038559771604f4f69.gif");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -597,7 +624,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgb(0 0 0 / 14%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -618,9 +645,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #about p {
-  font-size: 14px;
+  font-size: 19px;
+  font-weight: 500;
   margin-bottom: 20px;
   color: #fff;
+}
+.row{
+  color: #18d26e;
+  font-size: 34px;
+  font-weight: 600;
+  align-content: center;
+  margin: 119px 0px 0px 0px;
 }
 
 /*--------------------------------------------------------------
@@ -628,7 +663,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #speakers {
   padding: 60px 0 30px 0;
+  height: 800px;
 }
+
 #speakers .speaker {
   position: relative;
   overflow: hidden;
@@ -716,7 +753,7 @@ h1, h2, h3, h4, h5, h6 {
 # Schedule Section
 --------------------------------------------------------------*/
 #schedule {
-  padding: 60px 0 60px 0;
+  padding: 60px 0 359px 0;
 }
 #schedule .nav-tabs {
   text-align: center;
@@ -991,6 +1028,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
+.row1{
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
 #faq {
   padding: 60px 0;
 }
@@ -999,7 +1041,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 #faq .faq-list li {
-  border-bottom: 1px solid #e9eaed;
+  border-bottom: 1px solid #fefeff;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
@@ -1012,7 +1054,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #e0072f;
+  color: #18d26e;
   transition: 0.3s;
 }
 #faq .faq-list i {
@@ -1029,7 +1071,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 #faq .faq-list .collapsed {
-  color: #8A8F9B;
+  color: #fefeff;
 }
 #faq .faq-list .collapsed:hover {
   color: #73F342;
@@ -1170,6 +1212,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.row2{
+  font-weight: 500 !important;
+  font-size: 16px !important;
+}
 #contact {
   padding: 60px 0;
 }
@@ -1298,13 +1344,13 @@ h1, h2, h3, h4, h5, h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #07102e;
+  background: black;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
 }
 #footer .footer-top {
-  background: #040919;
+  background: black;
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -1320,8 +1366,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #footer .footer-top .footer-info img {
-  height: 40px;
-  margin-bottom: 10px;
+  height: 200px;
+  margin: -24px 0px 18px 0px;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -1377,6 +1423,7 @@ h1, h2, h3, h4, h5, h6 {
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #262c44;
   padding: 10px 0;
+  font-size: 16px;
 }
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
