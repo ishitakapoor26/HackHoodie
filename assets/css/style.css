@@ -3,6 +3,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.xyz{
+  opacity: 1 !important;
+    height: 200px !important;
+    top: 27% !important;
+}
+img, svg{
+  height: 79px;
+  margin-bottom: 2px;
+    margin-top: 1px;
+}
 .hoodie{
   color: #73F342;
 }
@@ -413,6 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
 #hero {
   width: 100%;
   height: 100vh;
@@ -438,6 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container img{
   width: initial;
   opacity: 0.6;
+  height: -webkit-fill-available;
 }
 .contain {
   position: relative;
@@ -446,11 +458,142 @@ h1, h2, h3, h4, h5, h6 {
 }
 .centered {
   position: absolute;
-  top: 30%;
+  top: 46%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 96px;
   font-weight: 600;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.discord, .discord:visited, .discord:active{
+    top: 57%;
+    left: 45%;
+    color: #73F342;
+    font-size: 21px;
+    background-color: black;
+    width: fit-content;
+    border: 2px solid #73F342;
+    margin: 79px 2px 2px 0px;
+}
+.dates{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 46px 2px 35px 2px;
+}
+.register, .register:visited, .register:active{
+    top: 57%;
+    left: 51%;
+    font-size: 21px;
+    color: #73F342;
+    background-color: black;
+    width: fit-content;
+    border: 2px solid #73F342;
+    margin: 79px 2px 2px 123px;
+}
+.discord:hover, .register:hover{
+  font-size: 21px;
+  color: #73F342;
+  background-color: black;
+  border: 2px solid #73F342;
+  font-weight: 600;
+  box-shadow: 3px 3px #73F342 ;
+  border-radius: 3px;
+}
+@media (min-width:308px) and (max-width:382px) {
+  .register{
+    top: 71%;
+    left: 15%;
+}
+.discord{
+  top: 57%;
+  left: 50% ;
+}
+  }
+@media (min-width:384px) and (max-width:505px) {
+  .discord{
+    top: 59%;
+    left: 29%;
+    font-size: 16px;
+  }
+  .register{
+    top: 59%;
+    left: 48%;
+    font-size: 16px;
+    margin: 79px 48px 2px 113px;
+  }
+}  
+@media (min-width:505px) and (max-width:939px) {
+  .discord{
+    top: 59%;
+    left: 38%;
+    font-size: 18px;
+  }
+  .register{
+    top: 59%;
+    left: 48%;
+    font-size: 18px;
+    margin: 79px 48px 2px 113px;
+  }
+}  
+@media (min-width:939px) and (max-width:1385px) {
+  .discord{
+    top: 57%;
+    left: 38%;
+    font-size: 18px;
+  }
+  .register{
+    top: 57%;
+    left: 48%;
+    font-size: 18px;
+    margin: 79px 48px 2px 113px;
+  }
+}  
+@media (min-width:1384px){
+.discord{
+  top: 57%;
+    left: 44%;
+    font-size: 22px;
+}
+.register{
+  top: 57%;
+    left: 49%;
+    font-size: 22px;
+}
+}
+@media (min-width:383px) and (max-width: 1220px) {
+  .centered{
+    font-size: 3.2rem;
+  }
+}
+@media (min-width:305px) and (max-width: 382px)  {
+  .centered{
+    font-size: 2.5rem;
+  }
+}
+@media (min-width:1221px) {
+  .centered{
+    font-size: 5.5rem;
+    top:45%;
+  }
 }
 #hero .hero-container {
   position: absolute;
