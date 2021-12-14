@@ -3,6 +3,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.mail{
+  color:#73F342 ;
+}
+.mail:hover{
+  color:#73F342 ;
+}
 .xyz{
   opacity: 1 !important;
     height: 200px !important;
@@ -1524,12 +1530,13 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   margin-right: 4px;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 53px;
+  height: 53px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 #footer .footer-top .social-links a i {
   line-height: 0;
