@@ -1162,6 +1162,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 } */
 #supporters .supporter-logo {
+  margin: 2px 2px 30px 2px;
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -1180,6 +1181,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 166px;
 }
 
+
 /*--------------------------------------------------------------
 # F.A.Q Section
 --------------------------------------------------------------*/
@@ -1190,6 +1192,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #faq {
   padding: 60px 0;
+  margin: 565px 2px 2px 2px;
 }
 #faq .faq-list {
   padding: 0;
