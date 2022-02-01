@@ -524,11 +524,14 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 3px 3px #73F342 ;
   border-radius: 3px;
 }
-@media (min-width:308px) and (max-width:382px) {
+@media (min-width:308px) and (max-width:384px) {
   .register{
     top: 71%;
     left: 15%;
 }
+  .register:active{
+    margin: 171px 40px 5px 0px;
+  }
 .discord{
   top: 57%;
   left: 50% ;
